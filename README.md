@@ -156,7 +156,7 @@ Register your first user via `/register` and select **Admin** to get full access
 
 ## 🌐 Live Demo
 
-> Coming soon 
+(https://business-development-associate-team-seven.vercel.app/)
 
 ---
 
