@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://business-development-associate-team-i0jp.onrender.com',
+  baseURL: 'https://business-development-associate-team-i0jp.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
