@@ -29,49 +29,7 @@ A full-stack MERN application for managing Business Development Associate teams,
 
 ---
 
-## 📁 Folder Structure
-bda-module/
-├── client/                     # React frontend
-│   ├── public/
-│   └── src/
-│       ├── api/
-│       │   └── axios.js        # Axios instance with interceptors
-│       ├── components/
-│       │   ├── Navbar.jsx
-│       │   ├── Sidebar.jsx
-│       │   ├── ProtectedRoute.jsx
-│       │   └── KanbanBoard.jsx
-│       ├── context/
-│       │   └── AuthContext.jsx  # Global auth state
-│       ├── pages/
-│       │   ├── Login.jsx
-│       │   ├── Register.jsx
-│       │   ├── Dashboard.jsx
-│       │   ├── Leads.jsx
-│       │   ├── Clients.jsx
-│       │   ├── Tasks.jsx
-│       │   └── Team.jsx
-│       └── App.jsx
-│
-├── server/                     # Express backend
-│   ├── middleware/
-│   │   └── auth.js             # JWT verification middleware
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Lead.js
-│   │   ├── Client.js
-│   │   └── Task.js
-│   ├── routes/
-│   │   ├── auth.js
-│   │   ├── leads.js
-│   │   ├── clients.js
-│   │   └── tasks.js
-│   ├── .env
-│   └── index.js
-│
-└── README.md
 
----
 
 ## ⚙️ Environment Variables
 
